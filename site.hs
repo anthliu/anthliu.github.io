@@ -5,8 +5,17 @@ import           Hakyll
 
 
 --------------------------------------------------------------------------------
+
+deploy_str :: IO String
+deploy_str = readFile "deploy.sh"
+
+config :: IO Configuration
+config = do
+    deploy <- deploy_str
+    return defaultConfiguration {deployCommand = deploy}
+
 main :: IO ()
-main = hakyll $ do
+main = config >>= \cfg -> hakyllWith cfg $ do
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
