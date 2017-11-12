@@ -34,7 +34,7 @@ main = config >>= \cfg -> hakyllWith cfg $ do
         route idRoute
         compile $ do
             let indexCtx =
-                    constField "title" "Anthony Liu" `mappend` defaultContext
+                    constField "title" "Welcome!" `mappend` defaultContext
 
             getResourceBody
                 >>= applyAsTemplate indexCtx
