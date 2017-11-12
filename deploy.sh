@@ -1,6 +1,3 @@
-# Temporarily store uncommited changes
-git stash
-
 # Verify correct branch
 git checkout dev
 
@@ -29,4 +26,3 @@ git push origin master:master
 
 # Restoration
 git checkout dev
-git stash pop
