@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-I am junior at the University of Michigan studying computer science (BSE).
+I am a senior at the University of Michigan studying computer science (BSE).
 <img src="images/anthliu.jpg" alt="profile_pic" style="float: right; margin: 20px; width: 200px;"/>
 
 I'm interested in the intersections of HCI + ML.
