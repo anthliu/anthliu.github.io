@@ -11,4 +11,4 @@ I'm interested in the intersections of HCI + ML.
 I'm actively doing research with [Prof. Walter Lasecki](https://web.eecs.umich.edu/~wlasecki/)
 and [Prof. Honglak Lee](https://web.eecs.umich.edu/~honglak/).
 
-Updated Oct. 2019.
+Updated Jan. 2020.
